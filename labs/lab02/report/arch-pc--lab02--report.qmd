@@ -1,10 +1,10 @@
-pdf-engine: xelatex
+---
 ## Author
 author:
-  name: Никитенко Арина Александровна
+  name:  Никитенко Арина Александровна
   degrees: DSc
   orcid: 0000-0002-0877-7063
-  email: 1132250435@pfur.ru
+  email: 1132250435@pfur.ru  
   affiliation:
     - name: Российский университет дружбы народов
       country: Российская Федерация
@@ -14,6 +14,8 @@ author:
 
 ## Title
 title: "Лабораторная работа №2"
+subtitle: "Простейший вариант"
+license: "CC BY"
 ---
 
 # Цель работы
@@ -88,7 +90,7 @@ this template :
 
 ([рис. @fig-009]).
 
-![Копирование репозитория](image/0.png){#fig-009 width=70%}
+![Копирование репозитория](image/9.png){#fig-009 width=70%}
 
 Клонируем созданный репозиторий:
 

@@ -1,7 +1,7 @@
 pdf-engine: xelatex
 project:
   title: "report"
-  output-dir: "report"
+  output-dir: "output"
 
 standalone: true
 self-contained: true

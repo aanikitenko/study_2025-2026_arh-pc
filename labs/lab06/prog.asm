@@ -20,13 +20,17 @@ call sprint
 mov ecx, x
 mov edx, 10
 call sread
+
 mov eax, x
 call atoi
 
-add eax, 11
-mov ebx, 2
-mul ebx
-sub eax, 6
+mov ebx, 10     
+mul ebx         
+sub eax, 5     
+mov ebx, eax    
+mul ebx    
+   
+
 
 mov edi, eax
 mov eax, msg_y
